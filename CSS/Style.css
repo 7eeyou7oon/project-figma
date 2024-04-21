@@ -1,0 +1,379 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    box-sizing: inherit;
+    margin: 0 ;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #34547A;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+footer, header, nav, section {
+	display: block;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+    background-color: #EEEFF1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item {
+    margin-right: 40px;
+
+}
+
+.header_item:last-child {
+    margin-right: 0;
+}
+
+.header_link {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+    opacity: .75;
+}
+
+.header_link.active {
+    color: #34547A;
+}
+
+.header_h1 {
+    margin-top: 41px;
+    width: 96px;
+    height: 60px;
+    font-size: 48px;
+    font-family: "Revalia", sans-serif;
+    text-decoration: none;
+    color: #34547A;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header_logo-link {
+    text-decoration: none;
+}
+
+.main_content {
+    display: flex;
+}
+
+.intro {
+    min-height: 700px;
+    background-size: cover;
+    padding-top: 263px;
+    position: relative;
+
+}
+
+
+.intro_title {
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    margin-left: 130px;
+    width: 541px;
+}
+
+.intro_text {
+    font-size: 16px;
+
+    flex-wrap: wrap;
+}
+
+.intro_sublime-text {
+    margin-top: 40px;
+    margin-left: 130px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #727272;
+}
+
+.btn-new {
+    border: none;
+    color: white;
+    background: #34547A;
+    width: 250px;
+    height: 45px;
+    margin-top: 50px;
+    margin-left: 130px;
+
+}
+
+
+.benefits {
+    margin-top: 119px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.benefits_title {
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 119px;
+    color: #000000;
+    text-align: center;
+
+}
+
+.benefits_subtext {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #727272;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.progects {
+    width: 1920px;
+    height: 250px;
+    background-color: #34547A;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+
+
+.progect_img {
+    display: flex;
+    width: 141px;
+    height: 50px;
+}
+
+.progect_img>a {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.profil_title {
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 50px;
+}
+
+.profil_main {
+    display: flex;
+}
+
+hr {
+    border: none;
+    background-color: #34547A;
+    color: #34547A;
+    height: 4px;
+    width: 445px;
+
+}
+
+.profil_img {
+    width: 555px;
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 102px;
+}
+
+.profil_text {
+    margin-top: 204px;
+    align-content: flex-start;
+}
+
+.jobs {
+    width: 1920px;
+
+    background-color: #EEEFF1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 101px;
+}
+
+
+
+.job-title {
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+.job_img {
+    width: 1110px;
+    height: 600px;
+    top: 2266px;
+    left: 405px;
+    padding-bottom: 100px;
+    padding-top: 57px;
+}
+
+.img-background {
+    width: 100%;
+    height: 960px;
+    top: 2994px;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 72px;
+}
+
+
+.job-subtext {
+ 
+    margin-top: 50px;
+    margin-bottom: 57px;
+    line-height: 26.25px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+
+
+.resunok {
+    min-width: 100%;
+}
+
+.microsoft_img {
+    text-align: center;
+    font-size: 0; 
+    white-space: nowrap;
+}
+
+.microsoft_img img {
+    margin-right: 30px; 
+    width: 255px;
+    height: 120px;
+    vertical-align: top;
+}
+
+.form-web {
+    text-align: center;
+}
+
+input {
+    width: 255px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+
+}
+
+#name {
+    margin: 12px;
+}
+
+textarea {
+    width: 540px;
+    height: 175px;
+    border: none;
+    padding: 10px;
+
+}
+
+.btn-active {
+    border: none;
+    color: white;
+    background: #34547A;
+
+    width: 190px;
+    height: 55px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 151px;
+    background-color: #34547A;
+}
+
+.footer-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text1 {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-title {
+    font-size: 21px;
+    position: relative;
+
+    padding-top: 50px;
+
+}
+
+.footer-text {
+    padding-top: 20px;
+    position: relative;
+    font-size: 13px;
+
+}
+
+.footer-img>img {
+    margin-top: 56px;
+    margin-right: 21px;
+    top: 0px;
+}
+
+.profil_text .p1,
+.profil_text .p2,
+.profil_text .p3 {
+    width: 128px;
+    height: 15px;
+    margin-bottom: 19px;
+    margin-top: 29px;
+    margin-left: 1px;
+}
